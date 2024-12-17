@@ -82,8 +82,8 @@ export default defineConfig({
         }),
         lunaria({ configPath: './lunaria.config.json', route: '/contribute/translate-status' }),
       ],
-      title: 'Tauri',
-      description: 'The cross-platform app building toolkit',
+      title: 'The Autists',
+      description: 'This site is stolen and not done yet :)',
       logo: {
         dark: './src/assets/logo.svg',
         light: './src/assets/logo_light.svg',
@@ -134,7 +134,7 @@ export default defineConfig({
         baseUrl:
           process.env.NODE_ENV === 'development'
             ? `vscode://file/${path.dirname(fileURLToPath(import.meta.url))}`
-            : 'https://github.com/tauri-apps/tauri-docs/edit/v2',
+            : 'https://github.com/the-autists/the-autists.github.io',
       },
       customCss: ['./src/styles/custom.scss'],
       expressiveCode: {
